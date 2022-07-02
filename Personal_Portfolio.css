@@ -1,0 +1,111 @@
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+  background: red;
+  position: fixed;
+ 
+}
+ .nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links ul li a{
+   color: white;
+   text-decoration: none;
+   font-size: 17px;
+ font-family: verdana;
+}
+.welcome-section {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+width: 100%;
+height: 600px;
+background-color: #000;
+}
+h1{
+  color: white;
+  font-size: 60px;
+  font-family: verdana;
+}
+p{
+  color: red;
+  font-size: 30px;
+}
+.projects-section {
+text-align: center;
+padding: 50px;
+background: #46577d;
+}
+h2{
+color: white;
+font-size: 35px;
+font-family: 'Raleway', sans-serif;
+}
+hr{
+color: white;
+}
+img{
+width: 340px;
+height: 250px;
+padding: 10px;
+}
+.row{
+display: flex;
+   justify-content: space-between;
+}
+.btn-show-all {
+font-size: 25px;
+background: var(--main-gray);
+transition: background 0.3s ease-out;
+}
+.btn{
+display: inline-block;
+border-radius: 2px;
+background: black;
+}
+
+
+a {
+text-decoration: none;
+color: white;
+font-family: verdana;
+font-size: 18px;
+}
+.contact-section {
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+width: 100%;
+height: 1040px;
+background: #2d343c;
+
+}
+h2{
+font-size: "50px";
+font-family: verdana;
+line-height: 50px;
+}
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
+footer {
+font-weight: 300;
+display: flex;
+justify-content: space-evenly;
+padding: 2rem;
+background: var(--main-gray);
+border-top: 4px solid var(--main-red);
+}
